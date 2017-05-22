@@ -1,0 +1,56 @@
+
+		body {
+			font-family: Helvetica, Arial, sans-serif;
+      color: white;
+    }
+		#game {
+			background-color: green;
+			width: 100%;
+			height: 750px;
+			position: fixed;
+		}
+		header {
+			float: left;
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			top: 5%;
+		}
+		#hud {
+			display: flex;
+      font-size: 40px;
+      font-weight: bold;
+      justify-content: space-between;
+		}
+		#hud div {
+			padding: 5%;
+		}
+		#lawn {
+			width: 100%;
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 30px;
+			justify-content: space-around;
+		}
+		.hole {
+			width: 120px;
+			height: 150px;
+			background-image: url('./mole.png');
+			background-size: 600px;
+			background-repeat: no-repeat;
+			display: flex;
+			margin: 5%;
+			background-position: 0 100%;
+		}
+		.up {
+			background-position: 25% 100%;
+		}
+		.hit {
+			background-position: 50% 100%;
+		}
+		.sad {
+			background-position: 75% 100%;
+		}
+		.start {
+			background-position: 100% 100%;
+		}
